@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Documento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="openModalBtn">Adicionar Documento</button>
+
+    <!-- Modal -->
+    <div id="documentModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModalBtn" class="close">&times;</span>
+            <h2>Adicionar Documento</h2>
+            <input type="file" id="fileInput" accept=".pdf,.doc,.docx,.jpg,.png">
+            <div id="previewArea" class="preview-area"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
